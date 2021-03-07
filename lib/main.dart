@@ -90,10 +90,10 @@ class _HomeState extends State<Home> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Center(
-                  child: Icon(
-                    Icons.person_outline,
-                    size: 130,
-                    color: Colors.cyan,
+                  child:  Image.asset(
+                    'images/fitness.png',
+                    width: 380,
+                    height: 250,
                   ),
                 ),
                 Container(
