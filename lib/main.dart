@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-//
+const _url = 'https://github.com/moraesnicol';
 void main() {
   runApp(MaterialApp(
     home: Home(),
   ));
 }
 
-//
 //
 class Home extends StatefulWidget {
   @override
@@ -90,7 +92,7 @@ class _HomeState extends State<Home> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Center(
-                  child:  Image.asset(
+                  child: Image.asset(
                     'images/fitness.png',
                     width: 380,
                     height: 250,
@@ -103,6 +105,9 @@ class _HomeState extends State<Home> {
                     enableInteractiveSelection: false,
                     autofocus: false,
                     keyboardType: TextInputType.number,
+                    inputFormatters: <TextInputFormatter>[
+                      FilteringTextInputFormatter.digitsOnly
+                    ],
                     cursorColor: Colors.green,
                     textAlign: TextAlign.center,
                     style: TextStyle(
@@ -138,6 +143,9 @@ class _HomeState extends State<Home> {
                     enableInteractiveSelection: false,
                     autofocus: false,
                     keyboardType: TextInputType.number,
+                    inputFormatters: <TextInputFormatter>[
+                      FilteringTextInputFormatter.digitsOnly
+                    ],
                     cursorColor: Colors.green,
                     textAlign: TextAlign.center,
                     style: TextStyle(
@@ -195,8 +203,38 @@ class _HomeState extends State<Home> {
                 Text(
                   _infoText,
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.red, fontSize: 30),
-                )
+                  style: GoogleFonts.roboto(
+                    textStyle: TextStyle(color: Colors.purple, fontSize: 30),
+                  ),
+                ),
+                //bottom
+                Padding(
+                  padding: const EdgeInsets.only(top: 95.0, bottom: 20),
+                  child: Container(
+                    width: 350,
+                    height: 60,
+                    child: TextButton.icon(
+                      onPressed: () async {
+                        const url = 'https://github.com/moraesnicol';
+                        if (await canLaunch(url)) {
+                          await launch(url);
+                        } else {
+                           print('Could not launch $url') ;
+                          
+                        }
+                      },
+                      label: Text("Desenvolvido por Gabriel Nicol"),
+                      icon: Icon(
+                        Icons.favorite,
+                        color: Colors.pink,
+                        size: 24.0,
+                        semanticLabel: 'Link to my github',
+                      ),
+                    ),
+                  ),
+                ),
+
+                //bottom
               ],
             ),
           ),
