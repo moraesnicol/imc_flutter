@@ -1,4 +1,4 @@
-import 'package:Imc/splashscreen.dart';
+import 'package:imc/splashscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -12,9 +12,7 @@ import 'package:flutter_launcher_icons/utils.dart';
 import 'package:flutter_launcher_icons/xml_templates.dart';
 
 void main() {
-  runApp(SplashScreenPage()
-   
-  );
+  runApp(SplashScreenPage());
 }
 
 //
@@ -226,8 +224,7 @@ class _HomeState extends State<Home> {
                         if (await canLaunch(url)) {
                           await launch(url);
                         } else {
-                           print('Could not launch $url') ;
-                          
+                          print('Could not launch $url');
                         }
                       },
                       label: Text("Desenvolvido por Gabriel Nicol"),

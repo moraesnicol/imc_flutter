@@ -1,4 +1,4 @@
-package com.example.imc_flutter
+package imc_flutter_gabriel.nicol
 
 import io.flutter.embedding.android.FlutterActivity
 
