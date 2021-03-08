@@ -1,13 +1,20 @@
+import 'package:Imc/splashscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:flutter_launcher_icons/android.dart';
+import 'package:flutter_launcher_icons/constants.dart';
+import 'package:flutter_launcher_icons/custom_exceptions.dart';
+import 'package:flutter_launcher_icons/ios.dart';
+import 'package:flutter_launcher_icons/main.dart';
+import 'package:flutter_launcher_icons/utils.dart';
+import 'package:flutter_launcher_icons/xml_templates.dart';
 
-const _url = 'https://github.com/moraesnicol';
 void main() {
-  runApp(MaterialApp(
-    home: Home(),
-  ));
+  runApp(SplashScreenPage()
+   
+  );
 }
 
 //
