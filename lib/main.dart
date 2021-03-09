@@ -214,7 +214,7 @@ class _HomeState extends State<Home> {
                 ),
                 //bottom
                 Padding(
-                  padding: const EdgeInsets.only(top: 95.0, bottom: 20),
+                  padding: const EdgeInsets.only(top: 75.0, bottom: 30),
                   child: Container(
                     width: 350,
                     height: 60,
