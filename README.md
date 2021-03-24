@@ -1,10 +1,16 @@
 
 <p align="center">
-//<img align="" width="300" height="600" src="https://github.com/moraesnicol/Quiz/blob/master/Quizgiffinal.gif" title="quiiz">
+<img align="" width="300" height="600" src="https://play-lh.googleusercontent.com/zj9MB0KhI61OIDi2kZkQk9nHpu62rJnNtp11W1AlIRQtQGJyOzfzDwG4UZ5UXV-RFes=w720-h310-rw" title="imc">
+</p>
+
+<p align="center">
+<img align="" width="300" height="600" src="https://play-lh.googleusercontent.com/ClBaFoPG3Wd0O15wrE99kkwvpUL2f9o38CCtTzF2Ejcp9wEwvaW_IyipUPsRzfLrH58=w720-h310-rw" title="imc">
 </p>
          
-
+<p align="center">
 - [Baixe na Playstore ;)](https://play.google.com/store/apps/details?id=com.imc.gabrielnicol)
+</p>
+
 <br />
 <br />
 <h3 align="center">
