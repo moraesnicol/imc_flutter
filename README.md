@@ -1,16 +1,45 @@
-# imc_flutter
 
-A new Flutter project.
+<p align="center">
+<img align="" width="300" height="600" src="https://play-lh.googleusercontent.com/zj9MB0KhI61OIDi2kZkQk9nHpu62rJnNtp11W1AlIRQtQGJyOzfzDwG4UZ5UXV-RFes=w720-h310-rw" title="imc">
+</p>
 
-## Getting Started
+<p align="center">
+<img align="" width="300" height="600" src="https://play-lh.googleusercontent.com/ClBaFoPG3Wd0O15wrE99kkwvpUL2f9o38CCtTzF2Ejcp9wEwvaW_IyipUPsRzfLrH58=w720-h310-rw" title="imc">
+</p>
+         
+<p align="center">
+ 
+ [Baixe grátis na Playstore](https://play.google.com/store/apps/details?id=com.imc.gabrielnicol)
+ 
+</p>
 
-This project is a starting point for a Flutter application.
+<br />
+<br />
+<h3 align="center">
+Uma calculadora bem simples de IMC ; )
+</h3>
+<br />
+<br />
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
+</p>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ 
+</p>
+<br>
+
+## :rocket: Tecnologias
+
+Esse projeto foi desenvolvido com a seguinte tecnologia:
+
+- [Flutter](https://flutter.dev/)
+
+## 💻 Projeto
+
+Uma calculadora de IMC
