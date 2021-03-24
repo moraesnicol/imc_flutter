@@ -7,14 +7,14 @@
 <img align="" width="300" height="600" src="https://github.com/moraesnicol/imc_flutter/blob/master/images/1.png" title="imc">
 </p>
          
-<p align="center">
- [Baixe grátis na Playstore](https://play.google.com/store/apps/details?id=com.imc.gabrielnicol)
-</p>
 
 <br />
 <br />
 <h3 align="center">
 Uma calculadora bem simples de IMC ; )
+         
+ [Baixe grátis na Playstore](https://play.google.com/store/apps/details?id=com.imc.gabrielnicol)
+ 
 </h3>
 <br />
 <br />
