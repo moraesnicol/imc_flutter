@@ -9,7 +9,7 @@
          
 <p align="center">
  
- [Flutter](https://play.google.com/store/apps/details?id=com.imc.gabrielnicol)
+ [Baixe grátis na Playstore](https://play.google.com/store/apps/details?id=com.imc.gabrielnicol)
  
 </p>
 
