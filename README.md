@@ -8,7 +8,9 @@
 </p>
          
 <p align="center">
-- [Baixe na Playstore ; ) ] (https://play.google.com/store/apps/details?id=com.imc.gabrielnicol)
+ 
+ [Flutter](https://play.google.com/store/apps/details?id=com.imc.gabrielnicol)
+ 
 </p>
 
 <br />
